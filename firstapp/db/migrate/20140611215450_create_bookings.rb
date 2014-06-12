@@ -1,0 +1,9 @@
+class CreateBookings < ActiveRecord::Migration
+  def change
+    create_table :bookings do |t|
+      t.integer :phone
+
+      t.timestamps
+    end
+  end
+end
