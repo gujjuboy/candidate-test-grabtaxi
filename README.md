@@ -29,7 +29,6 @@ Installation
 
 ```sh
 git clone https://github.com/hotuy/candidate-test-grabtaxi.git candidate-test-grabtaxi
-cd candidate-test-grabtaxi
 
 ```
 
@@ -72,6 +71,7 @@ cd candidate-test-grabtaxi
     ```
 4. Open new terminal to start sidekiq server:
     ```sh
+        cd candidate-test-grabtaxi/secondapp/
         bundle exec sidekiq
     
     ```
