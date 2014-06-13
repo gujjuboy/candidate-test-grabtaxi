@@ -50,6 +50,7 @@ git clone https://github.com/hotuy/candidate-test-grabtaxi.git candidate-test-gr
         
     ```sh
     cd candidate-test-grabtaxi/firstapp/
+    bundle install
     rake db:migrate
     rake db:seed
     rails server -p 3000 //Change port if do you want
@@ -64,6 +65,7 @@ git clone https://github.com/hotuy/candidate-test-grabtaxi.git candidate-test-gr
     
     ```sh
     cd candidate-test-grabtaxi/secondapp/
+    bundle install
     rake db:migrate
     rake db:seed
     rails server -p 3001 //Change port if do you want
